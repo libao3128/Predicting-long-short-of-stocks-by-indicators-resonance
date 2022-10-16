@@ -46,4 +46,5 @@ As mentioned above, our dataset is the record of the stock price with the time s
 For this experiment, I found out that with a few technical indicators, we can really predict the trend of tomorrow's price. In addition to this, I also find out that the more data doesn't mean the better performance. As you can see above, the best amount of data is around 5 years, neither more or less data is good for the prediction.
 Besides the performance metrics I have done above, I also try to simulate the strategy based on model prediction.
 ![](https://i.imgur.com/7sTaiH8.png)
+
 As you can see above is the return on investment based on random forest prediction given 2015~2020 train data. The strategy simply all in if the model predict that tomorrow will go up and do nothing if go down. As the result, the strategy can beat the long-term holding strategy.
